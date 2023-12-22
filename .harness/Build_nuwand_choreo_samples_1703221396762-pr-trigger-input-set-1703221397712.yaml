@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_nuwand_choreo_samples_1703221396762-pr-trigger-input-set
+  identifier: Build_nuwand_choreo_samples_1703221396762prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_nuwand_choreo_samples_1703221396762
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
